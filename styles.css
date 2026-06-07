@@ -1,4 +1,8 @@
 
+* {
+margin: 0;
+padding: 0;
+}
 
 @keyframes blur-in-out {
 0%, 100% {
