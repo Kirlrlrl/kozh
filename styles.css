@@ -58,12 +58,12 @@ filter: blur(2.5px);
 
 p1 {
     color: black;
-    animation: blur-in-out 22s ease-in-out infinite;
+    animation: blur-in-out 11s ease-in-out infinite;
 }
 
 p {
     color: black;
-    -webkit-animation: blur 22s ease-in-out infinite;
+    -webkit-animation: blur 11s ease-in-out infinite;
 }
 
 body{
@@ -73,7 +73,7 @@ body{
     flex-direction: column;
     justify-content: center;
     row-gap: 5px;
-    text-indent: 60px;
+    text-indent: 30px;
     font-family: verdana;
 }
 
