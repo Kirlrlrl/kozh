@@ -10,7 +10,7 @@ margin-right: 30px;
 @keyframes blur-in-out {
 0%, 100% {
 filter: blur(0px);
-text-shadow: 0 0 10px #fff;
+
 opacity: 1;
 }
 25% {
@@ -18,7 +18,7 @@ filter: blur(2,5px);
  opacity: 0.5;
 }
 50% {
-text-shadow: 0 0 10px #fff;
+
 filter: blur(5px);
  opacity: 0;
 }
@@ -27,7 +27,7 @@ filter: blur(2,5px);
  opacity: 0.5;
 }
 100% {
-    text-shadow: 0 0 10px #fff;
+
     filter: blur(0px);
     opacity: 1;
 }
@@ -88,27 +88,33 @@ filter: blur(2,5px);
 
 
 p1 {
-    color: rgb(255, 0, 0);
+    color: crimson;
     animation: blur-in-out 20s ease-in-out infinite;
 }
 
 p {
-    color: rgb(255, 255, 255);
+    color: green;
     -webkit-animation: blur 20s ease-in-out infinite;
 }
 
 p2 {
-    color: rgb(255, 0, 0);
-    animation: blur1 30s ease-in-out infinite;
+    color: crimson;
+    animation: blur1 25s ease-in-out infinite;
 }
 
+div {
+    text-align: right;
+    color: green;
+    animation: blur1 25s ease-in-out infinite;
+}
+
+
 body{
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(175, 142, 142);
     width: 75vw;
     height: 200vh;
     justify-content: center;
     row-gap: 5px;
-    text-indent: 50px;
     font-family: verdana;
     line-height: 10px;
     font-size: medium;
