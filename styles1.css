@@ -7,7 +7,7 @@ margin-right: 30px;
 }
 
 
-@keyframes blur-in-out {
+@keyframes blur2 {
 0%, 100% {
 filter: blur(0px);
 
@@ -89,7 +89,7 @@ filter: blur(2,5px);
 
 p1 {
     color: rgb(255, 0, 0);
-    animation: blur-in-out 20s ease-in-out infinite;
+    animation: blur2 20s ease-in-out infinite;
 }
 
 p {
