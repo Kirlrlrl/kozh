@@ -2,8 +2,8 @@
 * {
 margin-top: 30px;
 margin-bottom: 10px;
-margin-left: 50px;
-margin-right: 30px;
+margin-left: 100px;
+margin-right: 100px;
 }
 
 
@@ -88,7 +88,7 @@ filter: blur(2,5px);
 
 
 p1 {
-    color: crimson;
+    color: rgb(129, 12, 35);
     animation: blur-in-out 20s ease-in-out infinite;
 }
 
@@ -98,7 +98,7 @@ p {
 }
 
 p2 {
-    color: crimson;
+    color: rgb(129, 12, 35);
     animation: blur1 25s ease-in-out infinite;
 }
 
@@ -110,12 +110,13 @@ div {
 
 
 body{
-    background-color: rgb(175, 142, 142);
+    background-color: rgb(175, 152, 152);
     width: 75vw;
     height: 200vh;
     justify-content: center;
     row-gap: 5px;
     font-family: verdana;
+    font-size: large;
     line-height: 10px;
     font-size: medium;
 }
